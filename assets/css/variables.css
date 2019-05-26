@@ -1,10 +1,18 @@
 
+
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
-
+   
+   --colour-red: hsla(349,53%,56%,1);
+   --colour-red-dark: rgb(163, 71, 88);
+   --colour-black: #000;
+   --colour-grey-dark: hsl(0, 0%, 46%);
+   --colour-grey-light: hsl(0, 0%, 66%);
+   --colour-grey-lighter: hsla(0, 0%, 92%, 0.52);
+   --colour-white: #FFF;
+  
   /**
    * Layout
    */
@@ -21,6 +29,11 @@
   --t-subtitle: var(--t-primary);
   --t-body: var(--t-secondary);
   --t-code: var(--t-tertiary);
+  --font-body: Merriweather;
+  --font-heading: Lato;
+  --unit: 0.9375rem;
 }
+
+
 
 
