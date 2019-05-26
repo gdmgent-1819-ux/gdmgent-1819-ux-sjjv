@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,14 +9,113 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/styleguide.css">
 </head>
+
 <body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
-</div>
+    <div class="container">
+        <h1 class="sg-title">Digital styleguide</h1>
+        <h2 class="sg-subtitle">Kleuren</h2>
+        <p class="kleur1">--colour-red: hsla(349,53%,56%,1);</p>
+        <p class="kleur4">--colour-red-dark</p>
+        <p class="kleur2">--colour-grey-lighter: hsla(0, 0%, 92%, 0.52);</p>
+        <p class="kleur3">--colour-grey-light: hsl(0, 0%, 66%);</p>
+
+        <h2 class="sg-subtitle">Typografie</h2>
+        <h4>Nav:</h4>
+        <div class="nav">
+            <p>active</p>
+            <p>Hover</p>
+        </div>
+        <div class="nav">
+            <p>Home</p>
+            <p>Home</p>
+        </div>
+        <div class="nav">
+            <p>non active</p>
+            <p>non active Hover</p>
+        </div>
+        <div class="nav">
+            <p class="non_active">Domein</p>
+            <p class="non_active_hover">Domein</p>
+        </div>
+        <h4>Title:</h4>
+        <h3 class="title">Domein</h3>
+        <h4>Tekst:</h4>
+        <p class="tekst">Ons vakantiedomein is gelegen in West-Vlaanderen aan de kust.</p>
+        <h4>Tekst footer:</h4>
+        <p class="footer">Ankertje vakantiedomein</p>
+        <p class="footer_right">Openingsuren receptie:</p>
+
+        <h2 class="sg-subtitle">Knopppen</h2>
+        <div class="tekstboven">
+            <p>normal</p>
+            <p>Hover</p>
+        </div>
+        <input type="submit" value="menukaart" class="knop">
+        <input type="submit" value="menukaart" class="hover">
+        <div class="tekstboven">
+                <p>normal</p>
+                <p>Hover</p>
+            </div>
+            <input type="submit" value="verzenden" class="knop2">
+            <input type="submit" value="verzenden" class="hover2">
+
+        <h2 class="sg-subtitle">Formulier</h2>
+        <p>Van:</p>
+        <form><input type="date" name="trip_start" class="kalender"></form>
+        <p>Tot:</p>
+        <form><input type="date" name="trip_start" class="kalender"></form>
+        <form>
+            <div class="formulier">
+                <p>NAAM</p><input type="text" name="naam" class="lang">
+            </div>
+            <div class="formulier">
+                <p>ADRES</p><input type="text" name="straat"><input type="number" name="nummer" class="huisnr">
+            </div>
+            <div class="postcode">
+                <input type="number" name="postcode" id="postcode"><input type="text" name="gemeente" class="gemeente">
+            </div>
+            <div class="formulier">
+                <p>TEL.</p> <input type="tel" name="telefoon" class="lang">
+            </div>
+            <div class="formulier">
+                <p>E-MAIL</p><input type="email" name="email" class="lang">
+            </div>
+            <input type="submit" value="Reserveren" class="reserveren">
+        </form>
+
+        <h2 class="sg-subtitle">Componenten</h2>
+        <h4>Images:
+        </h4>
+        <p>Col-5</p>
+        <div class="row">
+            <div class="col-5">
+                <img src="assets/images/sportbuiten.jpg" alt="sportbuiten">
+            </div>
+        </div>
+        <p>Col-5 hover</p>
+        <div class="row">
+            <div class="col-5">
+                <img src="assets/images/sportbuiten.jpg" alt="sportbuiten" class="img_hover">
+            </div>
+        </div>
+        <p>Col-4</p>
+        <div class="row">
+            <div class="col-4">
+                <img src="assets/images/sportbuiten.jpg" alt="sportbuiten">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="assets/images/sportbuiten.jpg" alt="sportbuiten" class="img_hover">
+            </div>
+        </div>
+        <h4>Background</h4>
+        <p>Main</p>
+        <div class="row2"></div>
+        <p>Footer</p>
+        <div class="row">
+            <p class="footer_color"> </p>
+        </div>
 </body>
+
 </html>
