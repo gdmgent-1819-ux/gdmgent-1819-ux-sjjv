@@ -15,3 +15,226 @@
     margin: 2rem 0 .5rem 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
+/*kleur*/
+.kleur1{
+    background-color: var(--colour-red);
+    height: 20px;
+    padding:2px;
+}
+
+.kleur2{
+    background-color: var(--colour-grey-lighter);
+    height: 20px;
+    padding:2px;
+}
+
+.kleur3{
+    background-color: var(--colour-grey-light);
+    height: 20px;
+    padding:2px;
+}
+.kleur4{
+    background-color: var(--colour-red-dark);
+    height: 20px;
+    padding:2px;
+}
+/*Typografie*/
+.nav{
+    display:flex;
+}
+.nav p{
+    margin-right: 20px;
+}
+h4{
+    margin-top: 10px;
+}
+.non_active {
+    --offset: .5rem;
+    --size: 3px;
+    color: var(--colour-grey-light);
+    display: block;
+    padding-bottom: 1rem;
+    text-decoration: none;
+  }
+  
+.non_active:hover {
+    border-bottom: 2px solid var(--colour-red);
+    color: var(--colour-red);
+    padding-bottom: var(--offset);
+    transition: all .1s;
+}
+.non_active_hover {
+    border-bottom: 2px solid var(--colour-red);
+    color: var(--colour-red);
+    padding-bottom: var(--offset);
+    transition: all .1s;
+}
+
+.title{
+    font:var(--t-headline);
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid var(--colour-red);
+    width: 100%;
+}
+.Tekst{
+    padding:var(--offset);
+    line-height: 1.2rem;
+}
+.footer{
+    background-color: var(--colour-red);
+    color:var(--colour-white);
+    font-size: 12px;
+  }
+
+.footer_right{
+    background-color: var(--colour-red);
+    color:var(--colour-white);
+    font-size: 12px;
+    text-align: right;
+  }
+/*Knoppen*/
+.tekstboven{
+    display:flex;
+}
+.tekstboven p{
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+.knop{
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    background-color: var(--colour-red);
+    text-align: center;
+    color:var(--colour-white);
+    border: solid 1.5px var(--colour-red);
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.hover{
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    color:var(--colour-white);
+    border: solid 1.5px var(--colour-red);
+    text-transform: uppercase;
+    font-size: 10px;
+    background-color: var(--colour-red-dark);   
+}
+.knop:hover{
+    background-color: var(--colour-red-dark);   
+}
+.knop2{
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    background-color: var(--colour-white);
+    text-align: center;
+    color:var(--colour-red);
+    border: solid 1.5px var(--colour-red);
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.hover2{
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    color:var(--colour-white);
+    border: solid 1.5px var(--colour-red);
+    text-transform: uppercase;
+    font-size: 10px;
+    background-color: var(--colour-red-dark);   
+}
+.knop2:hover{
+    background-color: var(--colour-red-dark);   
+}
+/*formulier*/
+.formulier{
+    display:flex;
+}
+.formulier p{
+    background-color: var(--colour-red);
+    color:var(--colour-white);
+    width: 31px;
+    height: 10px;
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 4px 2px;
+}
+.formulier input{
+    height: 7px;
+    padding: 4px 2px;
+    border: solid 1.5px var(--colour-red);
+    margin-bottom: 5px;
+}
+.huisnr{
+    margin-left: 5px;
+    width: 50px;
+}
+.postcode input{
+    height: 7px;
+    padding: 4px 2px;
+    border: solid 1.5px var(--colour-red);
+    margin-bottom: 5px;
+    
+}
+#postcode{
+    width: 50px;
+    margin-left: 34px;
+}
+.gemeente{
+    margin-left: 7px;
+}
+
+.lang{
+    width: 257px;
+}
+.reserveren{
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    background-color: var(--colour-red);
+    text-align: center;
+    color:var(--colour-white);
+    border: solid 1.5px var(--colour-red);
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-left: 195px;
+}
+
+.kalender{
+    background-color: var( --colour-red);
+    color:var(--colour-white);
+    border: solid 1.5px var(--colour-red);
+    margin-bottom: 5px;
+}
+/*componenten*/
+img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--colour-red);
+    object-fit:cover;
+}
+.img_hover{
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--colour-red);
+    object-fit:cover;
+    filter: brightness(60%);
+}
+.row2{
+    background-color: var(--colour-grey-lighter);
+    border-radius: 1rem;
+    padding:0.5rem;
+    height: 250px;
+}
+.footer_color{
+    background-color: var(--colour-red);
+    margin-top: 2rem;
+    height: 200px;
+    width: 100%;
+  }
